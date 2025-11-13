@@ -1,0 +1,16 @@
+  # Import the keyword module
+import keyword
+
+# Get the list of all keywords
+keywords_list = keyword.kwlist
+
+# Print the total number and the keywords
+print("💡 There are", len(keywords_list), "keywords in Python.\n")
+print("Here is the list of all Python keywords:\n")
+
+# Print each keyword
+for kw in keywords_list:
+    print(kw)
+
+
+    
