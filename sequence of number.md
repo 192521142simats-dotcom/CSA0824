@@ -1,0 +1,6 @@
+N=int(input("enter the limit:"))
+count=0
+for i in range(1,N+1):
+  count+=i*i
+  print("sum of sequare of N natural number"count)
+  
